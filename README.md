@@ -34,32 +34,34 @@ ForexSmartBot is an automated forex trading bot written in Python. It trades sta
    pip install -r requirements.txt
    
 ## Usage
-Configure Account Details:
+1. **Configure Account Details**:
+- Open forex_bot.py in a text editor.
+- Replace account_number, password, and server with your MT5 account credentials.
+  
+2. **Select Currency Pairs**:
+-Modify the symbols list in the run_bot() function to include other stable currency pairs if desired.
 
-Open forex_bot.py in a text editor.
-Replace account_number, password, and server with your MT5 account credentials.
-Select Currency Pairs:
+3. **Run the Bot**:
 
-Modify the symbols list in the run_bot() function to include other stable currency pairs if desired.
-Run the Bot:
+   ```bash
+   python forex_bot.py
+   
+## How It Works
+- **Initialization**: Connects to MT5 and logs into your trading account.
+- **Data Retrieval**: Fetches recent price data for selected currency pairs.
+- **Signal Generation**: Calculates moving averages to generate buy/sell/hold signals.
+- **Dynamic Amount Adjustment**: Adjusts trade amounts between $10 and $100 based on recent performance.
+- **Order Execution**: Places market orders based on generated signals.
+- **Continuous Operation**: Runs in a loop, updating every 5 minutes.
+  
+## Customization and Improvement
+- **Strategy Enhancement**: Implement more sophisticated trading strategies or indicators.
+- **Risk Management**: Add stop-loss and take-profit levels, or position sizing based on volatility.
+- **Error Handling**: Improve logging and error handling for robustness.
+- **Backtesting**: Use historical data to test and refine strategies before live trading.
 
-bash
-Copy code
-python forex_bot.py
-How It Works
-Initialization: Connects to MT5 and logs into your trading account.
-Data Retrieval: Fetches recent price data for selected currency pairs.
-Signal Generation: Calculates moving averages to generate buy/sell/hold signals.
-Dynamic Amount Adjustment: Adjusts trade amounts between $10 and $100 based on recent performance.
-Order Execution: Places market orders based on generated signals.
-Continuous Operation: Runs in a loop, updating every 5 minutes.
-Customization and Improvement
-Strategy Enhancement: Implement more sophisticated trading strategies or indicators.
-Risk Management: Add stop-loss and take-profit levels, or position sizing based on volatility.
-Error Handling: Improve logging and error handling for robustness.
-Backtesting: Use historical data to test and refine strategies before live trading.
-License
-This project is licensed exclusively to you. You have full rights to use, modify, and distribute the code as you see fit.
+## License
+This project is licensed using Apaeche 2.0
 
-Contact
+## Contact
 For any questions or support, please contact coffee@joma.dev
