@@ -61,7 +61,7 @@ ForexSmartBot is an automated forex trading bot written in Python. It trades sta
 - **Backtesting**: Use historical data to test and refine strategies before live trading.
 
 ## License
-This project is licensed using Apaeche 2.0
+This code is provided under the Apache 2.0 License
 
 ## Contact
 For any questions or support, please contact coffee@joma.dev
