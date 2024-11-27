@@ -1,6 +1,6 @@
 # ForexSmartBot
 
-ForexSmartBot is an automated forex trading bot written in Python. It trades stable currency pairs such as **EURUSD** and **USDJPY** using a simple moving average crossover strategy. The bot adjusts trade amounts dynamically between **$10** and **$100** based on recent trading performance, aiming to optimize the investment per operation.
+ForexSmartBot is an automated forex trading bot written in Python. It trades currency pairs such as **EURUSD** and **USDJPY** using a simple moving average crossover strategy. The bot adjusts trade amounts dynamically between **$10** and **$100** based on recent trading performance, aiming to optimize the investment per operation.
 
 ## Features
 
