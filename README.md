@@ -1,6 +1,19 @@
 # ForexSmartBot
 
-ForexSmartBot is an automated forex trading bot written in Python. It trades currency pairs such as **EURUSD** and **USDJPY** using a simple moving average crossover strategy. The bot adjusts trade amounts dynamically between **$10** and **$100** based on recent trading performance, aiming to optimize the investment per operation.
+Automated forex trading bot written in Python. It trades currency pairs such as **EURUSD** and **USDJPY** using a simple moving average crossover strategy. The bot adjusts trade amounts dynamically between **$10** and **$100** based on recent trading performance, aiming to optimize the investment per operation.
+
+## Table of Contents
+
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [How It Works](#how-it-works)
+- [Customization and Improvement](#customization-and-improvement)
+- [Disclaimer](#disclaimer)
+- [License](#license)
+- [Contact](#contact)
+- [Contribution](#contribution)
 
 ## Features
 
@@ -9,10 +22,6 @@ ForexSmartBot is an automated forex trading bot written in Python. It trades cur
 - **Dynamic Trade Amounts**: Automatically adjusts the trade amount between $10 and $100 based on recent profits or losses.
 - **MetaTrader 5 Integration**: Connects to MT5 via its Python API for live trading.
 - **Educational Purpose**: Designed to help users understand automated trading systems and how to improve them.
-
-## Disclaimer
-
-*Trading foreign exchange on margin carries a high level of risk and may not be suitable for all investors. ForexSmartBot is provided for educational purposes only. Use it responsibly and at your own risk.*
 
 ## Prerequisites
 
@@ -59,6 +68,11 @@ ForexSmartBot is an automated forex trading bot written in Python. It trades cur
 - **Risk Management**: Add stop-loss and take-profit levels, or position sizing based on volatility.
 - **Error Handling**: Improve logging and error handling for robustness.
 - **Backtesting**: Use historical data to test and refine strategies before live trading.
+
+## Disclaimer
+- **Financial Risk**: Trading foreign exchange on margin carries a high level of risk and may not be suitable for all investors. Use it responsibly and at your own risk.
+- **Educational Purpose**: This bot is provided for educational purposes and does not constitute financial advice.
+- **No Warranty**: The software is provided "as is", without warranty of any kind.
 
 ## License
 This code is provided under the Apache 2.0 License
