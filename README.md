@@ -65,3 +65,6 @@ This code is provided under the Apache 2.0 License
 
 ## Contact
 For any questions or support, please contact coffee@joma.dev
+
+## Contribution
+Feel free to fork this repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
