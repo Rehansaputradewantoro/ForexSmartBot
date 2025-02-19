@@ -87,7 +87,7 @@ def place_order(symbol, order_type, volume):
 
 # Main trading loop
 def run_bot():
-    symbols = ['EURUSD', 'USDJPY']  # You can add more symbols
+    symbols = ['EURUSD', 'USDJPY', '[XAUUSD']  # You can add more symbols
     profit_history = []
 
     while True:
@@ -114,9 +114,9 @@ def run_bot():
 # Entry point
 if __name__ == "__main__":
     if initialize_mt5():
-        account_number = 12345678      # Replace with your MT5 account number
-        password = "your_password"     # Replace with your MT5 account password
-        server = "YourBroker-Server"   # Replace with your broker's server name
+        account_number = 79575458      # Replace with your MT5 account number
+        password = "Revans505."     # Replace with your MT5 account password
+        server = "Exness-MT5Trial8"   # Replace with your broker's server name
 
         if login(account_number, password, server):
             run_bot()
